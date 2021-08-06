@@ -1,0 +1,10 @@
+lane :test do
+  jira_fix_version(
+    username: "example@domain.com",
+    password: "123",
+    url: "https://example.atlassian.net",
+    version: "iOS 1.0.3",
+    project: "MYPROJ",
+    issues: "MYPROJ-1"
+  )
+end
